@@ -1,0 +1,78 @@
+:root {
+    --main-color: rgb(0, 114, 69);
+    --head-text: #424842 ;
+    --lightgeen1-box: #d6e5d8 ;
+}
+
+body {
+    background: rgb(243, 255, 255);
+}
+
+
+/* Start local */
+.m-bot-m-top {
+    padding-bottom: 65px;
+    padding-top: 65px;
+}
+
+
+h3 {
+    color: var(--main-color);
+}
+h1 {
+    color: var(--head-text);
+}
+h2 {
+    color: var(--head-text);
+    font-weight: 700;
+}
+p {
+    /* max-width: 400px; */
+    line-height: 1.5;
+}
+
+.hold-stars {
+    width: 130px;
+    margin-bottom: 20px ;
+}
+.hold-stars img{
+    width: 100%;
+}
+/* End local */
+
+
+/* Start navbar */
+.navbar .navbar-nav .nav-link {
+    color: #242424;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus{
+    color: var(--main-color);
+}
+
+.Book-Table {
+    background: var(--main-color);
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+}
+/* End navbar */
+
+
+
+/* Start Explore Our Menu */
+.hold-specials {
+    background-color: var(--lightgeen1-box);
+}
+/* End Explore Our Menu */
+
+
+
+
+.dish {
+    background-color: var(--lightgeen1-box);
+}
